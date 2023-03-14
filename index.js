@@ -30,6 +30,12 @@ app.get('/', (req, res) => {
     res.render('home', {name: 'Prairie Creek Settlement'});
 })
 
+app.get('/about', (req, res) => {
+    //res.send('you hit homepage');
+    // render method sends views inside the views directory
+    res.render('about', {name: 'About PCS'});
+})
+
 app.get('/contact', (req, res) => {
     //res.send('you hit homepage');
     // render method sends views inside the views directory
