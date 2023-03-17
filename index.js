@@ -4,9 +4,13 @@ var app = express()
 //required to change default views directory
 const path = require('path');
 
-app.listen(3000, function () {
-console.log("Started application on port %d", 3000)
-});
+// app.listen(3000, function () {
+// console.log("Started application on port %d", 3000)
+// });
+
+app.listen(process.env.PORT || 3001, '0.0.0.0', () => {
+    console.log("Server is running.");
+  });
 
 //tell app to use EJS templating engine
 //by default html views are placed in the /views folder
