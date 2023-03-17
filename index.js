@@ -4,8 +4,8 @@ var app = express()
 //required to change default views directory
 const path = require('path');
 
-app.listen(10000, function () {
-console.log("Started application on port %d", 10000)
+app.listen(3000, function () {
+console.log("Started application on port %d", 3000)
 });
 
 //tell app to use EJS templating engine
