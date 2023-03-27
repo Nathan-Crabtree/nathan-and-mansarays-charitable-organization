@@ -2,7 +2,7 @@
 <%- include('partials/navbar') %>
 
 <div class="container text-center">
-    <h1 class="display-1 text-center text-primary text-dark">Welcome to Prairie Creek Settlement!</h1>
+    <h2 class="display-3 text-center text-primary text-dark">Welcome to Prairie Creek Settlement!</h2>
     <div class="row mb-3">
         <div class="col-1"></div>
         <div class="col-10">
@@ -32,22 +32,38 @@
         <div class="col-1"></div>
     </div>
 </div>
-<div id="carousel" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/images/arial.png" class="d-block w-100" alt="PCS arial view">
-      </div>
-      <div class="carousel-item">
-        <img src="images/group-gardening.jpg" class="d-block w-100" alt="PCS gardens">
-      </div>
+<div class="container">
+    <div class="row mb-3">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <dlv class="carousel-item active">
+                        <img src="images/arial-view.jpg" class="d-block w-100" alt="PCS arial view">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/group-gardening.jpg" class="d-block w-100" alt="PCS gardens">
+                    </div>
+                </div>
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+            </div>
+        </div>
+        <div class="col-1"></div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+    <div class="row mb-3">
+        <h2 class="text-center text-primary text-dark">The History of Prairie Creek Settlement (PCS)</h2>
+        <div class="col-2"></div>
+        <div class="col-8">
+            <span>PCS began with the vision of a man, Yehudah (Judah) "War Eagle" Petty. He set out to realize a better way, a way to sovereignty for all who desired to break free of the dependency on systems of enslavement. Little did he know, at the outset of his journey that it would result in a tearing down and rebuilding of all previously held belief systems and ideas, some of which he embraced quite rigidly. This path has served to dismantle falsehood and unveil truth as can only be understood when the proverbial veil has been lifted and the previously held fallacies are revealed for what they are, illusion.</span>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
 <%- include('partials/footer.ejs') %>

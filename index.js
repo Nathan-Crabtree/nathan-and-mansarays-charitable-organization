@@ -25,8 +25,7 @@ app.set('views', path.join(__dirname, 'views'));
 //link css files inside of template
 //path.join and __dirname sets the absolute path of the public directory in case node 
 //  is run outside of project directory
-app.use(express.static(path.join(__dirname, '/public')))
-
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', (req, res) => {
     //res.send('you hit homepage');
